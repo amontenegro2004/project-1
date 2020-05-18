@@ -15,6 +15,8 @@ public class main {
 	* Make a total count variable to count the points and a counter for your three lives/chances.
 	* Make a count variable to count your points
 	*/ 
+	
+	//INSTANCE VARIABLES
 	static int cnt = 3;
 	static int count = 0;
 	static int total = 0;
@@ -36,7 +38,7 @@ public class main {
 	public static void hi() {
 		JOptionPane.showMessageDialog(null, "Welcome to the High and Low Game, you have three chances to get things wrong. Try and guess if the next card is higher, lower, or equal. You win by guessing 6 questions right before your losees are up.");
 		while(cnt >0) {
-			
+			//INSTANCE VARIABLES
 				int a = (int)(Math.random()*13);
 				int b = (int)(Math.random()*4);
 				int c = (int)(Math.random()*13);
